@@ -5,6 +5,5 @@ pre-commit>=${PRE_COMMIT_VERSION}
 sqlfluff==${SQLFLUFF_VERSION}
 sqlfluff-templater-dbt==${SQLFLUFF_VERSION}
 dbt-core==${DBT_CORE_VERSION}
-python==${PYTHON_VERSION}
 snowflake-connector-python==${snowflake_python_connector}
 pytz>=${PYTZ_VERSION}

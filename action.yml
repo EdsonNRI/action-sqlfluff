@@ -161,7 +161,14 @@ runs:
     REVIEWDOG_ESLINT_FLAGS: ${{ inputs.eslint_flags }}
     REVIEWDOG_TOOL_NAME: ${{ inputs.tool_name }}
     EXTRA_REQUIREMENTS_TXT: ${{ inputs.extra_requirements_txt }}
+    PRE_COMMIT_VERSION: ${{ inputs.pre_commit_version }}
+    PYTZ_VERSION: ${{ inputs.pytz_version }}
+    SETUPTOOLS_VERSION: ${{ inputs.setuptools_version }}
     SQLFLUFF_VERSION: ${{ inputs.sqlfluff_version }}
+    DBT_CORE_VERSION: ${{ inputs.dbt_core_version }}
+    DBT_SNOWFLAKE_VERSION: ${{ inputs.dbt_snowflake_version }}
+    PYTHON_VERSION: ${{ inputs.python_version }}
+    SNOWFLAKE_PYTHON_CONNECTOR: ${{ inputs.snowflake_python_connector }}
     SQLFLUFF_COMMAND: ${{ inputs.sqlfluff_command }}
     SQLFLUFF_CONFIG: ${{ inputs.config }}
     SQLFLUFF_PATHS: ${{ inputs.paths }}
